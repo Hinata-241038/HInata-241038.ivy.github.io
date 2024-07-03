@@ -1,43 +1,168 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
+    padding: 0;
+    background-color: #669933;
+    background-image: url(img/free2.jpg);
+    background-repeat: repeat-x;
+    background-position: right top;
+    background-attachment: scroll;
+    background-size:  400px 200px;
+}
+.header {
+    background-color: #f2a65a;
     padding: 20px;
-    background-color: #f4f4f4;
-    }
-h1 {
     text-align: center;
-    color: #333;
-    }
-.ranking {
-    max-width: 600px;
-    margin: 0 auto;
-    background-color: #fff;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    }
-.rank-item {
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
     margin-bottom: 20px;
-    }
-.rank-item h2 {
-    font-size: 1.5em;
-    margin: 0;
-    color: #333;
-    }
-.rank-item img {
-    display: block;
-    margin: 10px auto;
+}
+
+.menu {
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.greeting {
+    background-color: #ff5733;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.content {
+    padding: 20px;
+}
+
+.image-box {
+    background-color: white;
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    text-align: center;
+}
+
+.image-box img {
     max-width: 100%;
     height: auto;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin: 0 auto 10px auto;
 }
-.rank-item p {
-    margin: 5px 0 0 0;
-    color: #666;
-    }
-footer {
+
+.image-box p {
+    font-size: 50px;
+    color: #333;
+}
+
+.footer {
+    background-color: #ffffff;
+    padding: 20px;
     text-align: center;
-    margin-top: 20px;
+    border-top: 1px solid #e0e0e0;
+    font-size: 14px;
     color: #777;
-    }
+}
+h1 {
+    margin: 40px auto;
+    padding: 30px;
+    border: 5px solid #FFFF00;
+    background-color: #CCFF66;
+    color: #333399;
+    width: 800px;
+    text-align: center;
+    font-size: 200%;
+    text-align: center;
+    line-height: 1;
+}
+#contents {
+    margin: 40px;
+    padding: 40px 80px;
+    border: 1px solid #fff;
+    background-color: #FFFF99;
+}
+h2 {
+    color: #9966FF	;
+    position: relative;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #FF0000;
+}
+.menu {
+    background: #FF0000;
+    color: #fff;
+}
+ul li {
+    display: inline-block;
+    margin: 10px 10px;
+    padding: 10px 20px;
+    border: 2px solid #ddd; /* □で囲む */
+    border-radius: 8px;
+    background-color: #FF6633;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.5s, border-color 0.5s; /* 背景色と枠線の色の変更にアニメーションを追加 */
+    cursor: pointer;
+}
+ul li:hover {
+    background-color: #f0f0f0; /* ホバー時の背景色を変更 */
+    border-color: #bbb; /* ホバー時の枠線の色を変更 */
+}
+p {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: MS P;
+}
+.highlight {
+    font-size: 30px;
+    color: #CC0000; 
+}
+.notice {
+    font-size: 25px;
+}
+.special-text {
+    font-size: 23px;
+}
+.tikinn {
+    font-size: 23px;
+}
+.ma-bo- {
+    font-size: 23px;
+}
+.torito {
+    font-size: 23px;
+}
+.demi {
+    font-size: 23px;
+}
+.header-container {
+    text-align: center;
+    position: relative;
+    margin-bottom: 40px;
+}
+.header-img {
+    width: 100%;
+    height: auto;
+}
+.owari {
+    font-size: 23px;
+    
+}
+.ootoya-link {
+    display: block;
+    margin-top: 10px; /* 上に余白を追加 */
+    font-size: 23px; /* 文字サイズを変更 */
+    color: #4CAF50; /* リンクの色を変更 */
+    text-decoration: none; /* 下線を消す */
+    text-align: center; /* 中央揃え */
+}
+.ootoya-link:hover {
+    text-decoration: underline; /* ホバー時に下線を表示 */
+}
+.click {
+    font-size: 26px;
+    color: #9999CC;
+}
